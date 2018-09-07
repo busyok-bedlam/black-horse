@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+}
+.axes {
+    width: 500px;
+    height: 500px;
+    border-width: 0 0 5px 5px;
+    border-color: #000;
+    border-style: solid;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.x-arrow {
+    position: absolute;
+    top: 468px;
+    left: 495px;
+    content: "";
+    border: 30px solid transparent;
+    border-left: 43px solid #000;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.y-arrow {
+    position: absolute;
+    top: -73px;
+    left: -32px;
+    content: "";
+    border: 30px solid transparent;
+    border-bottom: 43px solid #000;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
